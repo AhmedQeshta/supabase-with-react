@@ -22,8 +22,6 @@ export interface HeaderProps {
 export interface CustomFormProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   form: any;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  FormSchema: any;
   taskId: number | null;
   setTaskId: (id: number | null) => void;
   session: Session | null;
